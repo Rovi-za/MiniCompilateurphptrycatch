@@ -1,7 +1,173 @@
+# FICHIER .gitignore POUR MiniCompilateur PHP Try/Catch
+# -----------------------------------------------------
+
+# FICHIERS COMPILÉS JAVA
 *.class
+*.jar
+*.war
+*.ear
+
+# FICHIERS DE VOTRE PROJET
+src/Mainn.class
+src/AnalyseurLexical.class
+src/AnalyseurSyntaxique.class
+src/Token.class
+src/TokenType.class
+
+# DOSSIERS DE COMPILATION ET BUILD
 bin/
 out/
+target/
+build/
+dist/
+_output/
+classes/
+
+# ENVIRONNEMENTS DE DÉVELOPPEMENT
+## Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin.eclipse/
+
+## IntelliJ IDEA
 .idea/
 *.iml
+*.iws
+*.ipr
+out.idea/
+
+## VS Code
 .vscode/
+*.code-workspace
+
+## NetBeans
+nbproject/
+build/
+dist/
+/nbdist/
+
+# SYSTÈME D'EXPLOITATION
+## macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Linux
+*~
+
+# FICHIERS TEMPORAIRES
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.cache
+.temp/
+
+# LOGS
+*.log
+logs/
+log/
+*.logs
+
+# FICHIERS DE CONFIGURATION PERSONNELLS
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# FICHIERS DE DÉPENDANCES
+## Maven
+dependency-reduced-pom.xml
+
+## Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+## Ant
+ant-build/
+
+# FICHIERS DE DOCUMENTATION GÉNÉRÉS
+docs/_build/
+*.pdf
+*.docx
+*.aux
+*.toc
+*.out
+
+# FICHIERS D'ARCHIVES
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tgz
+
+# FICHIERS DE BACKUP
+*.backup
+*.old
+*.orig
+*.rej
+
+# FICHIERS SPÉCIFIQUES AU PROJET
+## Rapports de compilation
+compilation_report.txt
+test_results.txt
+
+## Fichiers de configuration locaux
+config.properties.local
+settings.local.xml
+
+# IGNORER LES DOSSIERS VIDES MAIS LES CONSERVER
+!src/.gitkeep
+!docs/.gitkeep
+!tests/.gitkeep
+
+# EXCEPTIONS (ne jamais ignorer ces fichiers)
+!.gitignore
+!README.md
+!LICENSE
+!rapport.md
+!*.java
+
+# FICHIERS DE TEST (optionnel - à adapter)
+## Fichiers de test temporaires
+test_output/
+test_data/
+*.test
+
+# -----------------------------------------------------
+# RÈGLES SPÉCIFIQUES POUR WINDOWS
+# -----------------------------------------------------
+# Fichiers d'icônes
+*.ico
+
+# Fichiers de raccourci
+*.lnk
+
+# -----------------------------------------------------
+# RÈGLES SPÉCIFIQUES POUR macOS
+# -----------------------------------------------------
+# Fichiers de ressources
+*.resources
+
+# Fichiers d'attributs étendus
+._*
+
+# -----------------------------------------------------
+# CONSEIL : Pour vérifier quels fichiers seront ignorés
+# git check-ignore -v nom_du_fichier
+# -----------------------------------------------------
