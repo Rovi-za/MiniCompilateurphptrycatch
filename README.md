@@ -74,7 +74,12 @@ java Mainn
 
 ```php
 try {
-@@ -80,15 +80,15 @@ try {
+    $x = 10;
+    if ($x > 5) {
+        $nom = "Test";
+    }
+} catch (Exception $e) {
+    $prenom = "Error";
 }
 ```
 
