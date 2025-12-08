@@ -43,7 +43,7 @@ Ce projet est un mini-compilateur développé en Java qui analyse le code PHP en
 │   ├── TokenType.java              # Token type enumeration
 │   └── Rapport de Projet.pdf       # Project report
 ├── mini-compilateur-trycatch-php.jar  # Compiled executable
-├── Rapport de Projet.pdf           # Project report (copy at root)
+├── Rapport de Projet.pdf           # Project report 
 └── README.md                       #           # Ce fichier
 ```
 
