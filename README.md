@@ -32,16 +32,16 @@ This project is a mini-compiler built in Java that analyzes PHP code with a focu
 
 ```
 .
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ Mainn.java                  # Main application with GUI
-â”‚   â”œâ”€â”€ AnalyseurLexical.java       # Lexical analyzer
-â”‚   â”œâ”€â”€ AnalyseurSyntaxique.java    # Syntactic analyzer
-â”‚   â”œâ”€â”€ Token.java                  # Token class
-â”‚   â”œâ”€â”€ TokenType.java              # Token type enumeration
-â”‚   â””â”€â”€ Rapport de Projet.pdf       # Project report
-â”œâ”€â”€ mini-compilateur-trycatch-php.jar  # Compiled executable
-â”œâ”€â”€ Rapport de Projet.pdf           # Project report (copy at root)
-â””â”€â”€ README.md                       # This file
+├── src/
+│   ├── Mainn.java                  # Main application with GUI
+│   ├── AnalyseurLexical.java       # Lexical analyzer
+│   ├── AnalyseurSyntaxique.java    # Syntactic analyzer
+│   ├── Token.java                  # Token class
+│   ├── TokenType.java              # Token type enumeration
+│   └── Rapport de Projet.pdf       # Project report
+├── mini-compilateur-trycatch-php.jar  # Compiled executable
+├── Rapport de Projet.pdf           # Project report (copy at root)
+└── README.md                       # This file
 ```
 
 ## How to Run
@@ -91,4 +91,4 @@ See the `Licence` file for details.
 
 ## Author
 
-Developed by Rovi
+Developed by Rovi 
