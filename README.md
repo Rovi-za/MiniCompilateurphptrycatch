@@ -75,12 +75,12 @@ java Mainn
 ```php
 try {
     $x = 10;
-    if ($x > 5) {
-        $nom = "Test";
-    }
-} catch (Exception $e) {
-    $prenom = "Error";
+    $y = $x + 5;
 }
+catch(Exception){
+    $msg = "Erreur !";
+}
+
 ```
 
 ## Prérequis
